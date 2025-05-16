@@ -1,0 +1,19 @@
+/* You can add global styles to this file, and also import other style files */
+@import './styles/variables.css';
+
+/* Reset básico */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Aquí podrías agregar estilos globales, por ejemplo: */
+body {
+  font-family: "Segoe UI","Roboto", sans-serif;
+  height: 100%;
+  background-color: var(--background-color);
+  color: var(--secondary-color);
+}
