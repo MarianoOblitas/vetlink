@@ -81,6 +81,7 @@
 
 .button:hover {
   background: var(--secondary-color);
+  border:2px solid var(--shadow-color);
 }
 
 .button:hover .text {

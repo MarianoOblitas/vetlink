@@ -16,4 +16,5 @@ body {
   height: 100%;
   background-color: var(--background-color);
   color: var(--secondary-color);
+  scrollbar-color: var(--primary-color) var(--background-color);
 }
